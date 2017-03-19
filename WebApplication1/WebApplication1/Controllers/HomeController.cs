@@ -22,6 +22,7 @@ namespace WebApplication1.Controllers
                 ViewData["rest"] += ViewData["rest"].ToString() + i.ToString();
             }
 
+            ViewBag["denee"] = "deneme";
             try
             {
                 int pi = 314;
