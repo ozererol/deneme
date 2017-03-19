@@ -29,10 +29,9 @@ namespace WebApplication1.Controllers
                 int sifir = 0;
                 double sonuc = pi / sifir;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                
-                throw;
+                Console.Write(ex.Message);
             }
 
             return View();
