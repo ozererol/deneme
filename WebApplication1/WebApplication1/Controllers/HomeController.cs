@@ -15,6 +15,13 @@ namespace WebApplication1.Controllers
         }
         public ActionResult Dashboard()
         {
+            ViewData["rest"] = "test içerik";
+
+            for (int i = 0; i <= 10; i++)
+            {
+                ViewData["rest"] += ViewData["rest"].ToString() + i.ToString();
+            }
+
             return View();
         }
     }
