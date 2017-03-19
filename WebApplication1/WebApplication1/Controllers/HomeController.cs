@@ -22,6 +22,18 @@ namespace WebApplication1.Controllers
                 ViewData["rest"] += ViewData["rest"].ToString() + i.ToString();
             }
 
+            try
+            {
+                int pi = 314;
+                int sifir = 0;
+                double sonuc = pi / sifir;
+            }
+            catch (Exception)
+            {
+                
+                throw;
+            }
+
             return View();
         }
 
