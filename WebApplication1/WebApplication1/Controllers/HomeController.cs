@@ -17,5 +17,10 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
+
+        public ActionResult deneem()
+        {
+            return View();
+        }
     }
 }
